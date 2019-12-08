@@ -1,0 +1,38 @@
+
+body {
+  background-image: url("http://www.graciaviva.cat/png/big/13/138961_pixel-art-space-background.png");
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+
+@keyframes h2{
+  0%  {color: pink;}
+  25% {color: blue;}
+  50% {color: orange;}
+  75% {color: red;}
+  100%{color: white;}
+}
+
+h1{
+  font-family:blocks;
+  font-size:100px;
+  display: inline-block;
+  margin-bottom: 170px;
+}
+
+h2{
+  font-family:blocks;
+  animation: h2 1s infinite;
+  font-size:70px;
+  display: inline-block;
+  margin-bottom: none;
+  color: white;
+}
+
+ @font-face {
+  font-family:blocks;
+  src: url("../font/baby_blocks.woff");
+  }

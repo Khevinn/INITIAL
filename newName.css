@@ -1,0 +1,57 @@
+ body{
+  background-image: url("https://i.gifer.com/IrM.gif");
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+ }
+
+
+
+
+
+.player{
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 3em auto;
+  padding: 0.8em;
+  text-align: center;
+  width: 100%;
+  font-size:18px;
+  margin: 40vh auto;
+  max-width: 350px;
+}
+
+h2{
+  font-size:70px;
+  display: inline-block;
+  color: white;
+}
+
+.play{
+text-align: center;
+font-size: 15px;
+}
+
+.play {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 30px;
+    margin: 3em auto;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.play:hover {
+    background-color: rgba(100, 50, 220, 100);
+}
+
+.play:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
